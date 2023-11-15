@@ -1,0 +1,76 @@
+body {
+  background-color: #f0f0f0; /* светло-серый фон */
+  color: #000; /* черный текст */
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header,
+footer {
+  background-color: #336699; /* цвет заливки шапки и подвала */
+  color: #fff; /* цвет текста в шапке и подвале */
+  padding: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Добавьте дополнительные стили по необходимости */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  min-width: 200px;
+  width: 400px;
+  object-fit: contain;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  cursor: pointer;
+  color: #f41;
+  text-decoration: underline;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-block: 20px;
+  align-items: center;
+}
+
+.footer-icon-container {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-social-icon {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
+}
+
+.footer-social-icon:hover {
+  filter: invert(50%);
+}
