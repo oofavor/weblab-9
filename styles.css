@@ -79,3 +79,22 @@ footer {
 .footer-social-icon:hover {
   filter: invert(50%);
 }
+
+.function-block {
+  border: red solid 2px;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+td {
+  height: 80px;
+  width: 120px;
+  text-align: center;
+}
